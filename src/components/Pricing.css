@@ -1,0 +1,142 @@
+*{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f7fc;
+        color:#333;
+    }
+
+    .container{
+        max-width:1200px;
+        margin:auto;
+        padding:50px 20px;
+        text-align:center;
+    }
+
+    h1{
+        font-size:42px;
+        color:#1e3a8a;
+        margin-bottom:10px;
+    }
+
+    .subtitle{
+        font-size:18px;
+        color:#666;
+        margin-bottom:50px;
+    }
+
+    .pricing-wrapper{
+        display:flex;
+        justify-content:center;
+        gap:30px;
+        flex-wrap:wrap;
+    }
+
+    .pricing-card{
+        background:#fff;
+        border-radius:15px;
+        padding:35px;
+        width:350px;
+        box-shadow:0 10px 25px rgba(0,0,0,0.1);
+        transition:0.3s;
+    }
+
+    .pricing-card:hover{
+        transform:translateY(-8px);
+    }
+
+    .popular{
+        border:3px solid #2563eb;
+        position:relative;
+    }
+
+    .badge{
+        position:absolute;
+        top:-15px;
+        left:50%;
+        transform:translateX(-50%);
+        background:#2563eb;
+        color:white;
+        padding:8px 20px;
+        border-radius:20px;
+        font-size:14px;
+        font-weight:bold;
+    }
+
+    .plan-title{
+        font-size:26px;
+        margin-bottom:15px;
+        color:#1e40af;
+    }
+
+    .price{
+        font-size:50px;
+        font-weight:bold;
+        color:#111827;
+    }
+
+    .price span{
+        font-size:18px;
+        color:#666;
+    }
+
+    .student-count{
+        margin:20px 0;
+        font-size:18px;
+        color:#555;
+        font-weight:bold;
+    }
+
+    ul{
+        list-style:none;
+        text-align:left;
+        margin:25px 0;
+    }
+
+    ul li{
+        padding:10px 0;
+        border-bottom:1px solid #eee;
+    }
+
+    .btn{
+        display:inline-block;
+        background:#2563eb;
+        color:white;
+        text-decoration:none;
+        padding:12px 28px;
+        border-radius:8px;
+        font-weight:bold;
+        margin-top:15px;
+    }
+
+    .note{
+        margin-top:50px;
+        background:white;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 5px 15px rgba(0,0,0,0.08);
+        font-size:16px;
+        color:#555;
+    }
+
+.pricing-section {
+    background: #f4f7fc;
+    color: #333;
+    padding: 70px 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    text-align: left;
+    margin: 25px 0;
+    padding: 0;
+}
+
+.pricing-card ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
